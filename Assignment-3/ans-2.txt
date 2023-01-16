@@ -1,0 +1,10 @@
+2. explain the feature of nodejs like non-blocking, synchronous, single threaded.
+ans:-
+Singlethreaded:
+>>node.js uses a single call stack so it is called single threaded.
+non-blocking:
+>>A non-blocking operation in Node js does not wait for I/O to complete
+synchronous:
+>>when a event operations occurs like onclick,timeout etc
+>>those functions push to node.js further it push to event loop
+>>when it treged then it push to call stack to process in this way we achieved synchronous in node.js

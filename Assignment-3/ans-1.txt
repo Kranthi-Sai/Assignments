@@ -1,0 +1,10 @@
+1. explaing the architecture of nodejs
+ans:-
+>>Node js architecture is built on “Single Threaded Event Loop” to handle multiple concurrent incoming clients requests.
+>> Its processing model is based on a JavaScript event-based model with a JavaScript callback mechanism alongside. 
+>>It uses two concepts in its architecture, the Asynchronous model which is similar to that in JavaScript’s event-based model, and Non-blocking of I/O operations. 
+----
+>>Node js retrieves the incoming clients’ requests and adds those requests to the Event Queue of node js.
+>>The incoming requests are then passed onto Event Loop one by one after which it checks if that request requires external resources or not. 
+>>If it does then those requests get allocated with external resources else it moves onto the next step.
+>>In Event Loop, non-blocking (simple) requests are processed like I/O polling and return those requests (response) to respective clients.

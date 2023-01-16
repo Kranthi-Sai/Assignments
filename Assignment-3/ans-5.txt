@@ -1,0 +1,6 @@
+5.why should we use let in place of var in our javascript programs?
+ans:
+>>var and let are used to define variables. 
+The only difference is in the scope they provide for variables defined using them.
+Scope of a variable, in simple terms is the section of code where the variable is visible.
+Outside its scope, the variable does not exist.

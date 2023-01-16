@@ -1,0 +1,48 @@
+3. create a array and object in javascript and print it.
+ans:-
+creating an array:-
+>>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+<p id="demo"></p>
+
+<script>
+const cars = [
+  "Saab",
+  "Volvo",
+  "BMW"
+];
+document.getElementById("demo").innerHTML = cars;
+</script>
+
+</body>
+</html>
+output:
+JavaScript Arrays
+Saab,Volvo,BMW
+
+Creating an object:
+>>
+<!DOCTYPE html>
+<html>
+<body>
+
+  <script>
+
+    const names = ['Alex', 'Bob', 'Johny', 'Steve'];
+
+    const obj = Object.assign({}, names);
+
+    console.log(obj);
+
+  </script>
+
+</body>
+</html> 
+
+output:
+Object {):"Alex",1:"Bob",2:"Johny",3:"Steve"}

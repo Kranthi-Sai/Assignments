@@ -1,0 +1,24 @@
+4.write program to show how to append, pop and sort elements in array in javascript.
+ans:-
+>>
+pop():
+>>pop() removes the last element of an array.
+let array1 = ["code", "source", {name: "website"}];
+let popped = array1.pop()
+console.log(array1, popped);
+ Output:
+ ["code", "source"];
+ {name: "website"}
+ push():
+ >>push() appends at the last of an arraay
+ const animals = ['dog', 'cat', 'mouse'];
+animals.push('rabbit', 'turtle');
+console.log(animals);\
+output:
+> Array [ "dog", "cat", "mouse", "rabbit", "turtle" ]
+sort():
+>>sort() sort an array.
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.sort();
+output:
+Apple,Banana,Mango,Orange.
