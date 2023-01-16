@@ -1,0 +1,4 @@
+5. Steps you followed to connect github repo to your local repo.
+ans 5:-
+>>git remote add origin <remote_repo_URL>
+>>git push --all origin

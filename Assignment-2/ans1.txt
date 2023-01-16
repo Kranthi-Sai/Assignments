@@ -1,0 +1,12 @@
+ans:-
+>>git init
+>>git status
+>>git add .
+>>git commit -m "first commit"
+>>git remote add origin "url of the git"
+>>git push -u origin main
+>>git branch
+>>git checkout -b firstbranch  (do some changes)
+>>git add .
+>>git commit -m "first branch"
+>>git push -u origin firstbranch

@@ -1,0 +1,8 @@
+2. tell the difference between nodejs and javascript
+ans:-
+javascript:
+>>Javascript is a lightweight, object-oriented scripting language that is used to build dynamic HTML pages with interactive effects on a webpage.
+>> JavaScript is also commonly used in game development and mobile app development.
+node.js:
+>>Node.js is a cross-platform, open-source JavaScript runtime environment that enables JavaScript to be run on the server.
+>>Node.js comes with a large number of modules and is mostly used in web creation. 

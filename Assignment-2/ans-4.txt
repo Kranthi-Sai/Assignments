@@ -1,0 +1,4 @@
+ans:-
+>>git log
+>>git reset --hard <hash>
+>>git push -f <remote><branch>

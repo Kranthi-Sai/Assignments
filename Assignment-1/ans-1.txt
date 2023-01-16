@@ -1,0 +1,12 @@
+1. How we can use ssh in github and also write command to generate ssh keys in your respestive operating system.
+ans:-
+>> go to githubb
+  >>on profile menu click settings
+  >>select SSH and GPG KEYS 
+  >>click on new SSH key
+  >>then open teminal 
+  >>type this>> $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+  >>then folder u wanna save that pub file
+  >> open that pub file and copy it
+  >> paste in github key section 
+  >>our new ssh key is generated

@@ -1,0 +1,9 @@
+ans:-
+ static webpage :
+ >>In static web pages, Pages will remain same until someone changes it manually.
+ >>Static web pages are written in languages such as: HTML, JavaScript, CSS, etc.
+ >>In Static Web Pages, database is not used.
+ dynamic webpage :
+ >>In dynamic web pages, Content of pages are different for different visitors.
+ >>Dynamic web pages are written in languages such as: CGI, AJAX, ASP, ASP.NET, etc.
+ >>In dynamic web pages, database is used.
